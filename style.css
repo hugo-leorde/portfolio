@@ -201,9 +201,18 @@ img {
     padding: .5rem;
 }
 
+.container-sobre {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
 .apresentação {
     color: aliceblue;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .apresentação span {
@@ -218,20 +227,12 @@ img {
     margin-bottom: 5rem;
 }
 
-.content-img {
-    display: none;
-}
-
-.container-mobile  {
-    display: flex;
-    justify-content: space-between;
-}
-
-.container-mobile img {
-    width: 6rem;
-    height: 7rem;
-    border-radius: 40px;
+.apresentacao {
     margin-bottom: 2rem;
+}
+
+.apresentacao .name {
+    color: var(--title-page);
 }
 
 .container-section-mostruario p {
@@ -405,6 +406,10 @@ img {
 }
 
 
+.container-certificacoes p {
+    margin-bottom: 2rem;
+}
+
 @media (min-width: 600px) {
     .container-tecnologias {
         grid-template-columns: repeat(3, 1fr);
@@ -416,25 +421,6 @@ img {
 }
 
 @media (min-width: 768px) {
-
-     .content-img {
-        display: block;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .content-img img {
-        width: 80%;
-        height: 70%;
-        border-radius: 50%;
-    }
-
-    .container-apresentacao {
-        display: flex;
-        justify-content: space-evenly;
-        gap: 1rem;
-    }
 
     .container-cards {
         display: flex;
@@ -485,30 +471,6 @@ img {
         color: var(--title-page);
     }
 }
-
-@media (min-width: 1024px) {
-    .container-apresentacao {
-        display: flex;
-        justify-content: space-evenly;
-        gap: 3rem;
-    }
-
-    .content-img {
-        display: block;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    
-    .content-img img {
-        width: 70%;
-        height: 70%;
-        border-radius: 50%;
-    }
-
-}
-
 
 section {
   scroll-margin-top: 100px; 
