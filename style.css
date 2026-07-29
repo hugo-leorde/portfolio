@@ -225,6 +225,7 @@ img {
     letter-spacing: 1px;
     text-align: justify;
     margin-bottom: 5rem;
+    
 }
 
 .apresentacao {
@@ -469,6 +470,14 @@ img {
 
     .sidebar li a:hover {
         color: var(--title-page);
+    }
+
+    .container-sobre {
+        padding: 0 5rem
+    }
+
+    .container-section-mostruario {
+        padding: 0 5rem;
     }
 }
 
