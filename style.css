@@ -173,6 +173,7 @@ img {
     display: block;
     background: var(--background-header);
     padding: .5rem;
+    border-radius: 8px;
 }
 
 .curriculo-contato .btn:last-child {
